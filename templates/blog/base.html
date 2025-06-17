@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+<!--<h1>Hello django!</h1>-->
+<!--<hr>-->
+<!--<h2>{{a}} + {{b}} = {{c}}</h2>-->
+<!--<hr>-->
+<!--<h2>Talabalar ro`yxati</h2>-->
+<!--<ol>-->
+<!--    {% for student in students %}-->
+<!--    <li style="front-size: 20px;">-->
+<!--        {% if student.payed %} ✅ {% else %} ❌ {% endif %}-->
+<!--        {{ student.first_name }} {{ student.last_name }} - Tel: {{ student.phone }}-->
+<!--    </li>-->
+<!--    {% endfor %}-->
+<!--</ol>-->
+
+<h1>Barcha Postlar</h1>
+{% for post in posts %}
+<h2>{{ post.title }}</h2>
+<p>{{ post.content }}</p>
+<hr>
+{% endfor %}
+</body>
+</html>
