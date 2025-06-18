@@ -1,0 +1,12 @@
+# Virtual muhit
+.venv/
+
+# PyCharm fayllari
+.idea/
+
+# Python kesh fayllari
+__pycache__/
+*.pyc
+
+# Log fayllar
+*.log

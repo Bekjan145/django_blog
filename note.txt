@@ -1,0 +1,4 @@
+django-admin startproject config .
+python manage.py startapp blog
+python manage.py runserver
+
